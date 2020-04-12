@@ -2,7 +2,7 @@
 
 ![](images/d2vss.png)
 
-A web-app from the paper, _[Effectivness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, by Cedric Conol and Rosely Peña.
+A web-app from the paper, _[Effectiveness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, by Cedric Conol and Rosely Peña.
 
 ### Prerequisites
 
