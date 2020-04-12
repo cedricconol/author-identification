@@ -118,5 +118,6 @@ from PIL import Image
 image = Image.open(showimage(pred))
 
 st.image(image, width=image.size[1]//10)
+st.subheader('Prediction:')
 st.write("I am", str(proba)[:5]+"%", " sure it's written by ", fullname(pred), ".")
 
