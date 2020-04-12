@@ -8,7 +8,7 @@ vectorizer = st.sidebar.selectbox('Select feature extraction method:',
 st.title('Author Identification')
 st.markdown('**_by Cedric Conol_**')
 
-st.markdown("A web-app based on the paper, _[Effectivness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, "
+st.markdown("A web-app based on the paper, _[Effectiveness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, "
 "by Cedric Conol and Rosely Peña.")
 
 showinfo = st.checkbox('Show more')
