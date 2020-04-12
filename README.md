@@ -21,3 +21,8 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+
+Alternatively, you may run it using the github link.
+```
+streamlit run https://cedricconol.github.io/doc2vec/app.py
+```
