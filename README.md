@@ -1,6 +1,8 @@
 # Author Identification
 
-A web-app based on the paper, _[Effectivness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, by Cedric Conol and Rosely Peña.
+![](images/d2vss.png)
+
+A web-app from the paper, _[Effectivness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, by Cedric Conol and Rosely Peña.
 
 ### Prerequisites
 
@@ -18,4 +20,9 @@ pip install -r requirements.txt
 
 ```
 streamlit run app.py
+```
+
+Alternatively, you may run it using the github link.
+```
+streamlit run https://raw.githubusercontent.com/cedricconol/author-identification/master/app.py
 ```
