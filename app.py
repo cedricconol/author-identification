@@ -6,19 +6,19 @@ vectorizer = st.sidebar.selectbox('Select feature extraction method:',
  ('Bag of Words', 'TF-IDF', 'Doc2vec'), index=2)
 
 st.title('Author Identification')
-st.markdown('**_by Cedric Conol_**')
 
-st.markdown("A web-app based on the paper, _[Effectiveness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, "
+st.markdown("A web-app from the paper, _[Effectiveness of Doc2Vec in Authorship Identification Tasks](https://cedricconol.github.io/doc2vec/)_, "
 "by Cedric Conol and Rosely Peña.")
 
-showinfo = st.checkbox('Show more')
-
-if showinfo:
-    st.markdown('This project identifies the most probable author of a sentence or phrase'
+st.markdown('This app identifies the most probable author of a sentence or phrase'
         ' from a given list of authors. The logistic regression model used to predict the author'
         ' was trained using the data from the [`Spooky Author Identification`]'
         '(https://www.kaggle.com/c/spooky-author-identification/data) competition in '
         'Kaggle. ')
+
+showinfo = st.checkbox('Show dataset information')
+
+if showinfo:
     st.markdown(">_\"The competition dataset contains text from works of fiction written by spooky authors of the public domain: Edgar Allan Poe, HP Lovecraft and Mary Shelley. The data was prepared by chunking larger texts into sentences using CoreNLP's MaxEnt sentence tokenizer, so you may notice the odd non-sentence here and there. Your objective is to accurately identify the author of the sentences in the test set.\"_")
 
 st.subheader('Give it a try!')
